@@ -1,0 +1,9 @@
+.body__container{
+  margin: 0 auto;
+}
+@media(min-width:1280px){
+  .body__container{
+    margin: 0 auto;
+    max-width: 948px;
+  }
+}
