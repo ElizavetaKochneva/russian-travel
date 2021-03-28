@@ -9,3 +9,21 @@
   font-family: Inter;
   padding-bottom: 24px;
 }
+@media(max-width:1024px){
+  .footer{
+    max-width: 928px;
+  }
+}
+@media(max-width:768px){
+  .footer{
+    max-width: 720px;
+  }
+}
+@media(max-width:320px){
+  .footer{
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 310px;
+    max-width: 186px;
+  }
+}

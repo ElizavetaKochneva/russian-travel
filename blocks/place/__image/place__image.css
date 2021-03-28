@@ -1,4 +1,19 @@
 .place__image{
   height: 460px;
-  width: 460px;
+  width: 100%;
+}
+@media(max-width:1024px){
+  .place__image{
+    height: 440px;
+  }
+}
+@media(max-width:768px){
+  .place__image{
+    height: 340px;
+  }
+}
+@media(max-width:320px){
+  .place__image{
+    height: 320px;
+  }
 }

@@ -9,3 +9,12 @@
 .place__paragraph:nth-child(even) {
   margin-top: 26px;
 }
+@media(max-width:768px){
+ .place__paragraph{
+  font-size: 16px;
+  line-height: 26px;
+ } 
+ .place__paragraph:nth-child(even) {
+  margin-top: 25px;
+}
+}

@@ -4,3 +4,13 @@
   margin-top: 92px;
   font-family: Inter;
 }
+@media(max-width:768px){
+ .cards{
+  margin-top: 88px;
+ } 
+}
+@media(max-width:320px){
+  .cards{
+   margin-top: 64px;
+  } 
+ }

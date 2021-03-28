@@ -6,11 +6,10 @@
   background-size: 100% 100%;
   max-width: 1184px;
   max-height: 740px;
-  margin: 12px auto 92px;
+  margin: 92px auto;
   position: relative;
   font-family: Inter;
-  padding-top: 245px;
-  padding-bottom: 245px;
+  padding: 245px 0;
   z-index: 1;
 }
 .cover__link::after{
@@ -27,4 +26,27 @@
 }
 .cover__link:hover::after{
   opacity: 0.8;
+}
+@media(max-width:1024px){
+ .cover__link{
+  max-width: 1024px;
+  max-height: 640px;
+  padding: 195px 0;
+ }
+}
+@media(max-width:768px){
+  .cover__link{
+    max-width: 768px;
+    max-height: 480px;
+    margin: 90px auto 88px;
+    padding: 115px 0;
+ }
+}
+@media(max-width:320px){
+  .cover__link{
+    max-width: 320px;
+    max-height: 200px;
+    margin: 66px auto 64px;
+    padding: 33px 0;
+  }
 }
