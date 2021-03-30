@@ -16,6 +16,6 @@
 }
 @media(max-width:767px){
   .intro__lists{
-    margin: 34px 0 64px 16px;
+    margin: 34px auto 64px 16px;
   }
 }
