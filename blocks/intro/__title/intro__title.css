@@ -5,11 +5,16 @@
   font-size: 54px;
   line-height: 58px;
 }
-@media(max-width:320px){
+@media(max-width:767px){
   .intro__title{
     font-size: 32px;
     line-height: 35px;
     line-height: 36px;
-    white-space: pre-line;
+    max-width: 288px;
+  }
+}
+@media(max-width:1023px){
+  .intro__title{
+  margin-left: 24px;
   }
 }

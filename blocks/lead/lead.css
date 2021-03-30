@@ -3,7 +3,7 @@
   color: white;
   font-family:Inter;
 }
-@media(max-width:1024px){
+@media(max-width:1279px){
   .lead{
     margin-top: 48px;
   }

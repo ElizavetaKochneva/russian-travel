@@ -1,9 +1,24 @@
 .body__container{
   margin: 0 auto;
+  max-width: 984px;
 }
-@media(min-width:1280px){
+@media(max-width:1279px){
   .body__container{
     margin: 0 auto;
-    max-width: 948px;
+    max-width: 928px;
+  }
+}
+
+@media(max-width:1023px){
+  .body__container{
+    margin: 0 auto;
+    max-width: 768px;
+  }
+}
+
+@media(max-width:767px){
+  .body__container{
+    margin: 0 auto;
+    max-width: 320px;
   }
 }

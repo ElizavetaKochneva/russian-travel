@@ -1,0 +1,18 @@
+.photo__item{
+ width: 284px;
+}
+@media(max-width:1279px){
+  .photo__item{
+    width:300px;
+  }
+}
+@media(max-width:1023px){
+  .photo__item{
+    width:352px;
+  }
+}
+@media(max-width:767px){
+  .photo__item{
+    width:288px;
+  }
+}

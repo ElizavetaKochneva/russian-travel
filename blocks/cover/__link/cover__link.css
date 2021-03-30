@@ -27,14 +27,14 @@
 .cover__link:hover::after{
   opacity: 0.8;
 }
-@media(max-width:1024px){
+@media(max-width:1279px){
  .cover__link{
   max-width: 1024px;
   max-height: 640px;
   padding: 195px 0;
  }
 }
-@media(max-width:768px){
+@media(max-width:1023px){
   .cover__link{
     max-width: 768px;
     max-height: 480px;
@@ -42,7 +42,7 @@
     padding: 115px 0;
  }
 }
-@media(max-width:320px){
+@media(max-width:767px){
   .cover__link{
     max-width: 320px;
     max-height: 200px;

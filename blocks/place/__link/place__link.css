@@ -3,7 +3,6 @@
   margin: 0;
   font-family: Inter;
   font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
@@ -12,4 +11,9 @@
 }
 .place__link:hover{
   opacity: .8;
+}
+@media(max-width:767px){
+  .place__link{
+    margin-left: 16px;
+  }
 }
