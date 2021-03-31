@@ -11,7 +11,7 @@
   .header{
     max-width: 928px;
   }
-
+}
 @media(max-width:1023px){
   .header{
     margin: 28px auto 0;
