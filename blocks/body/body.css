@@ -2,4 +2,7 @@
   background: #2A2C2F;
   margin: 0;
   padding: 0;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
  }

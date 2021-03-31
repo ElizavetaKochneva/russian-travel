@@ -3,23 +3,25 @@
   position: relative;
   justify-content: space-between;
   align-items:flex-end;
-  min-height: 52px;
-  margin: 28px 48px 0;
+  margin: 28px auto 0;
   font-family: Inter;
-
+  max-width: 1184px;
 }
 @media(max-width:1279px){
+  .header{
+    max-width: 928px;
+  }
 
-}
 @media(max-width:1023px){
   .header{
-    margin: 28px 24px 0;
+    margin: 28px auto 0;
+    max-width: 720px;
   }
 }
 @media(max-width:767px){
   .header{
-    min-height: 42px;
-    margin: 16px 16px 0;
+    margin: 16px auto 0;
+    max-width: 288px;
   }
   
 }

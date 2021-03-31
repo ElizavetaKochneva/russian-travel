@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: space-between;
   color: white;
-  height: 18px;
   max-width: 1184px;
   font-family: Inter;
 }
@@ -22,7 +21,6 @@
   .footer{
     flex-direction: column;
     justify-content: space-between;
-    height: 310px;
     margin-left: 16px;
   }
 }
