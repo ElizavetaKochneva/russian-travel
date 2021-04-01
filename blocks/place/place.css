@@ -5,6 +5,9 @@
   grid-row-gap: 48px;
   grid-column-gap: 40px;
   margin: 0 auto 80px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: white;
+  font-style: normal;
 }
 .place:last-child{
   margin-bottom: 0;

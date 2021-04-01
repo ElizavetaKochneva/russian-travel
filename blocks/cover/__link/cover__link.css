@@ -8,9 +8,10 @@
   min-height: 100%;
   margin: 92px auto;
   position: relative;
-  font-family: Inter;
   padding: 245px 0;
   z-index: 1;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
 .cover__link::after{
   content: "";

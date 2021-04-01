@@ -1,7 +1,8 @@
 .intro{
   margin-top: 92px;
   color: white;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
 }
 @media(max-width:1023px){
   .intro{
