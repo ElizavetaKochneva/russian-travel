@@ -3,6 +3,7 @@
   width: 176px;
   height: 52px;
   background-size: cover;
+  background-position: center;
 }
 @media(max-width:767px){
  .header__logo{
